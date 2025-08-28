@@ -75,9 +75,3 @@ jobs:
           DB_PASSWORD: password
         run: vendor/bin/phpunit --testdox
 
-      - name: Upload Artifacts (optional)
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-results
-          path: storage/logs/
