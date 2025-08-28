@@ -42,4 +42,4 @@ jobs:
         run: php artisan migrate --force
 
       - name: Execute Tests
-  run: vendor/bin/phpunit --testsuite Feature --testdox
+        run: vendor/bin/phpunit --testsuite Feature --testdox
