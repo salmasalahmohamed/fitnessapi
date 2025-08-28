@@ -72,6 +72,6 @@ jobs:
           DB_DATABASE: fitness
           DB_USERNAME: laravel
           DB_PASSWORD: password
-         run: vendor/bin/phpunit --testsuite Feature --testdox
+        run: vendor/bin/phpunit --testsuite Feature --testdox
 
 
